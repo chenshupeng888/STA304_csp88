@@ -7,6 +7,7 @@ library(cesR)
 cesR::get_ces(srvy = "ces2019_web")
 
 ## plots of education level 
+# show it by geom bar
 ces2019_web%>%
   ggplot(aes(x=cps19_education))+geom_bar(colour="blue")+scale_x_binned(name="Education Level")+
   labs(y="Number of people",title="Grap1: Education level among respondents",
@@ -15,6 +16,7 @@ ces2019_web%>%
 
 
 #### plot of satisfaction with government
+#show it by histogram
 ces2019_web%>%
   ggplot(aes(x=cps19_fed_gov_sat))+geom_histogram(stat="count")+scale_x_binned(name= "Satisfaction to Federal Government")+
   labs(y="Number of people",title="Graph2: Respondents'Satisfaction with Federal Government",
@@ -22,6 +24,7 @@ ces2019_web%>%
        '2019 Canadian Election Study")+theme_linedraw()
 
 #### group people whose educatiion level below high scool together with their satisfaction with government.
+## and show it by geom count.
 ces2019_web_1<-
   ces2019_web%>%
   filter(cps19_education<4)
@@ -37,6 +40,7 @@ ces2019_web_1%>%
 
 
 ### group people whose educatiion level above high scool together with their satisfaction with government.
+## and show it by geom count
 ces2019_web_2<-
   ces2019_web%>%
   filter(cps19_education>=4)

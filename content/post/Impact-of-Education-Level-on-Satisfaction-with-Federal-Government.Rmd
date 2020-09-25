@@ -86,7 +86,7 @@ Although the data sources of this article are reliable, there are inevitably som
 
 **^5^** 1 represents illiteracy, 2 primary school education, 3 junior high school education, 4 high school education but not complete, 5 high school education,6 community college but not complete , 7 community college, 8 university education but not complete,9 bachelor's degree, 10 master's degree, 11 doctor's degree 12 prefer not to say.
 
-code and data supporting this analysis is available at: https://github.com/chenshupeng888/STA304_csp88
+code and data supporting this analysis is available at: https://github.com/chenshupeng888/STA304_csp88/blob/master/content/supported-code/code_for_cseR.R
 
 
 ## Reference
