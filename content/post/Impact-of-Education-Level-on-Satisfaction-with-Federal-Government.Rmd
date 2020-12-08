@@ -17,6 +17,8 @@ library(cesR)
 ```
 Author : Chen, Shupeng
 Keywords : Education Level , Federal Government  and  2019 CES dataset
+code and data supporting this analysis is available at: https://github.com/chenshupeng888/shupeng/blob/master/content/post/Impact-of-Education-Level-on-Satisfaction-with-Federal-Government.Rmd
+
 
 # Abstract
 In capitalist countries, popular satisfaction with the federal government often determines whether the incumbent party wins elections. In this paper we explore the 2019 CES dataset, which was a non-probability survey**^1^** conducted in the lead-up to the 2019 Federal Election. We found that people's education level is closely related to their satisfaction with the federal government. Our findings have certain reference value to the governing party's re-election.
